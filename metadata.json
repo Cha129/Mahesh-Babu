@@ -1,0 +1,6 @@
+{
+  "name": "Mahesh Babu Tribute",
+  "description": "A cinematic tribute website celebrating superstar Mahesh Babu's 25+ years in Telugu cinema, career milestones, box-office hits, philanthropic work, and fan wishes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
