@@ -1,6 +1,7 @@
 import React from 'react';
 import { ChevronDown, Sparkles, Flame, Film } from 'lucide-react';
 import { ImagePlaceholder } from './ImagePlaceholder';
+import tridentHero from '../assets/trident-hero.png';
 
 export const Hero: React.FC = () => {
   const scrollTo = (id: string) => {
@@ -24,7 +25,7 @@ export const Hero: React.FC = () => {
       {/* Full-bleed background image container with gradient overlays */}
       <div className="absolute inset-0 z-0 opacity-30">
         <img
-          src="/assets/trident-hero.png"
+          src={tridentHero}
           alt="Superstar Mahesh Babu Intense Avatar"
           className="w-full h-full object-cover object-center scale-105 filter contrast-125"
         />
@@ -53,7 +54,7 @@ export const Hero: React.FC = () => {
         <div className="relative mb-6 max-w-md sm:max-w-xl group">
           <div className="relative rounded-2xl overflow-hidden border-2 border-[#d4a72c] bg-[#14100b] shadow-2xl gold-border-glow transition-transform duration-300 group-hover:scale-[1.02]">
             <img
-              src="/assets/trident-hero.png"
+              src={tridentHero}
               alt="Superstar Mahesh Babu Trident Avatar"
               className="w-full aspect-[16/9] object-cover object-top"
             />

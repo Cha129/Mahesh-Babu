@@ -26,12 +26,17 @@ export const ImagePlaceholder: React.FC<ImagePlaceholderProps> = ({
 }) => {
   const [imageError, setImageError] = useState(false);
 
-  // Check if src is a raw placeholder string like 'POSTER_POKIRI' or 'HERO_IMAGE_URL'
+  // Check if src is a raw placeholder token string like 'POSTER_POKIRI' or 'HERO_IMAGE_URL'
   const isPlaceholderToken =
+    Boolean(src) &&
     !src.startsWith('http://') &&
     !src.startsWith('https://') &&
     !src.startsWith('/') &&
-    !src.startsWith('data:');
+    !src.startsWith('./') &&
+    !src.startsWith('../') &&
+    !src.startsWith('data:') &&
+    !src.startsWith('blob:') &&
+    !/\.(png|jpg|jpeg|webp|svg|gif)($|\?)/i.test(src);
 
   const showPlaceholderOverlay = isPlaceholderToken || imageError;
 

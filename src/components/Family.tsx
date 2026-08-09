@@ -1,5 +1,7 @@
 import React from 'react';
 import { Quote, Users, MapPin } from 'lucide-react';
+import maheshWithFather from '../assets/mahesh_with_father.jpg';
+import familyPoster from '../assets/posters/family.png';
 
 export const Family: React.FC = () => {
   return (
@@ -29,12 +31,12 @@ export const Family: React.FC = () => {
             <div className="group relative rounded-2xl overflow-hidden border-2 border-[#d4a72c]/60 bg-[#14100b] shadow-2xl gold-border-glow hover:-translate-y-1.5 transition-all duration-300">
               <div className="relative aspect-[4/3] sm:aspect-[5/4] lg:aspect-[4/5] overflow-hidden bg-[#0b0906]">
                 <img
-                  src="/assets/mahesh_with_father.jpg"
+                  src={maheshWithFather}
                   alt="Superstar Krishna with Mahesh Babu"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
                   onError={(e) => {
-                    (e.target as HTMLImageElement).src = '/posters/family.png';
+                    (e.target as HTMLImageElement).src = familyPoster;
                   }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0b0906] via-transparent to-transparent opacity-80" />

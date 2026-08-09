@@ -1,6 +1,9 @@
 import React from 'react';
 import { Heart, Activity, ShieldCheck, Award, Sparkles } from 'lucide-react';
 import { ImagePlaceholder } from './ImagePlaceholder';
+import foundationLogo from '../assets/foundation-logo.png';
+import foundationCampaign from '../assets/foundation-campaign.png';
+import foundationEvent from '../assets/foundation-event.png';
 
 export const Charity: React.FC = () => {
   return (
@@ -39,7 +42,7 @@ export const Charity: React.FC = () => {
                 {/* Small Logo Lockup Placeholder */}
                 <div className="w-16 h-16 shrink-0">
                   <ImagePlaceholder
-                    src="/assets/foundation-logo.png"
+                    src={foundationLogo}
                     alt="Heal A Child Foundation Logo Lockup"
                     title="HAC"
                     type="logo"
@@ -103,7 +106,7 @@ export const Charity: React.FC = () => {
             {/* Main Visual Placeholder */}
             <div className="shadow-2xl">
               <ImagePlaceholder
-                src="/assets/foundation-campaign.png"
+                src={foundationCampaign}
                 alt="Heal A Child Campaign Visual"
                 title="Heal A Child Medical Campaign"
                 subtitle="Life-saving cardiac surgeries for children"
@@ -116,7 +119,7 @@ export const Charity: React.FC = () => {
             {/* Small Captioned Partnership Photo Placeholder */}
             <div className="shadow-xl">
               <ImagePlaceholder
-                src="/assets/foundation-event.png"
+                src={foundationEvent}
                 alt="Foundation Hospital Event & Patient Interaction Photo"
                 title="Hospital Outreach & Medical Support"
                 subtitle="Personal visits & medical aid distribution"

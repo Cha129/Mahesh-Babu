@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Crown, Sparkles } from 'lucide-react';
+import mbLogo from '../assets/mb-logo.png';
 
 interface NavbarProps {
   activeSection: string;
@@ -75,7 +76,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
             }`}
           >
             <img
-              src="/assets/mb-logo.png"
+              src={mbLogo}
               alt="Mahesh Babu Logo"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover rounded-full"

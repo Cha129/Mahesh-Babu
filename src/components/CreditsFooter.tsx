@@ -1,5 +1,6 @@
 import React from 'react';
 import { Crown, Heart, Sparkles } from 'lucide-react';
+import wishcraftLogo from '../assets/wishcraft-logo.png';
 
 export const CreditsFooter: React.FC = () => {
   return (
@@ -39,7 +40,7 @@ export const CreditsFooter: React.FC = () => {
           {/* WishCraft Studios Logo */}
           <div className="flex flex-col items-center justify-center py-2">
             <img
-              src="/assets/wishcraft-logo.png"
+              src={wishcraftLogo}
               alt="WishCraft Studios Logo"
               className="w-28 h-28 sm:w-36 sm:h-36 object-contain filter drop-shadow-[0_0_20px_rgba(212,167,44,0.35)] hover:scale-105 transition-transform duration-300"
             />
@@ -55,7 +56,7 @@ export const CreditsFooter: React.FC = () => {
           </div>
 
           <div className="pt-3 border-t border-[#1e1710] flex items-center justify-center gap-2">
-            <img src="/assets/wishcraft-logo.png" alt="WishCraft Logo" className="w-5 h-5 object-contain" />
+            <img src={wishcraftLogo} alt="WishCraft Logo" className="w-5 h-5 object-contain" />
             <span className="text-xs font-inter text-amber-200/70 uppercase tracking-widest font-medium">
               WishCraft Studios — Digital Craft, Fan-Made
             </span>

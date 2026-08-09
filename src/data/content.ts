@@ -1,4 +1,18 @@
 import { FilmEntry, IndustryHit, AwardMilestone, GalleryItem, FanWish } from '../types';
+import tridentHero from '../assets/trident-hero.png';
+import foundationCampaign from '../assets/foundation-campaign.png';
+import khalejaPoster from '../assets/posters/khaleja.jpg';
+import dookuduPoster from '../assets/posters/dookudu.jpg';
+import srimanthuduPoster from '../assets/posters/srimanthudu.jpg';
+import pokiriPoster from '../assets/posters/pokiri.jpg';
+import athaduPoster from '../assets/posters/athadu.jpg';
+import businessmanPoster from '../assets/posters/businessman.png';
+import maharshiPoster from '../assets/posters/maharshi.png';
+import bharatPoster from '../assets/posters/bharat_ane_nenu.png';
+import nenokkadinePoster from '../assets/posters/nenokkadine.jpg';
+import okkaduPoster from '../assets/posters/okkadu.png';
+import varanasiPoster from '../assets/posters/varanasi.png';
+import familyPoster from '../assets/posters/family.png';
 
 export const FILMOGRAPHY_DATA: FilmEntry[] = [
   {
@@ -335,7 +349,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'SSMB29 / Varanasi Avatar',
     subtitle: 'Direction by S.S. Rajamouli - Intense Globe-Trotting Hero',
     year: 'Upcoming 2027',
-    src: '/assets/trident-hero.png',
+    src: tridentHero,
     category: 'Upcoming'
   },
   {
@@ -343,7 +357,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Khaleja',
     subtitle: 'Cult Comedy Action',
     year: '2010',
-    src: '/posters/khaleja.jpg',
+    src: khalejaPoster,
     category: 'Poster'
   },
   {
@@ -351,7 +365,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Dookudu',
     subtitle: 'Record-Breaking Blockbuster',
     year: '2011',
-    src: '/posters/dookudu.jpg',
+    src: dookuduPoster,
     category: 'Poster'
   },
   {
@@ -359,7 +373,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Srimanthudu',
     subtitle: 'Social Drama Classic',
     year: '2015',
-    src: '/posters/srimanthudu.jpg',
+    src: srimanthuduPoster,
     category: 'Poster'
   },
   {
@@ -367,7 +381,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Pokiri',
     subtitle: 'Industry-Defining Hit',
     year: '2006',
-    src: '/posters/pokiri.jpg',
+    src: pokiriPoster,
     category: 'Poster'
   },
   {
@@ -375,7 +389,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Athadu',
     subtitle: 'Timeless Thriller',
     year: '2005',
-    src: '/posters/athadu.jpg',
+    src: athaduPoster,
     category: 'Poster'
   },
   {
@@ -383,7 +397,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Businessman',
     subtitle: 'Crime Drama Spectacle',
     year: '2012',
-    src: '/posters/businessman.png',
+    src: businessmanPoster,
     category: 'Poster'
   },
   {
@@ -391,7 +405,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Maharshi',
     subtitle: 'National Award-Winning Drama',
     year: '2019',
-    src: '/posters/maharshi.png',
+    src: maharshiPoster,
     category: 'Poster'
   },
   {
@@ -399,7 +413,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Bharat Ane Nenu',
     subtitle: 'Political Masterpiece',
     year: '2018',
-    src: '/posters/bharat_ane_nenu.png',
+    src: bharatPoster,
     category: 'Poster'
   },
   {
@@ -407,7 +421,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: '1: Nenokkadine',
     subtitle: 'Psychological Action Thriller',
     year: '2014',
-    src: '/posters/nenokkadine.jpg',
+    src: nenokkadinePoster,
     category: 'Poster'
   },
   {
@@ -415,7 +429,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Okkadu',
     subtitle: 'Commercial Landmark',
     year: '2003',
-    src: '/posters/okkadu.png',
+    src: okkaduPoster,
     category: 'Poster'
   },
   {
@@ -423,7 +437,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Varanasi',
     subtitle: 'Directed by S.S. Rajamouli',
     year: 'Upcoming 2027',
-    src: '/posters/varanasi.png',
+    src: varanasiPoster,
     category: 'Upcoming'
   },
   {
@@ -431,7 +445,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Ghattamaneni Legacy',
     subtitle: 'Family & Roots',
     year: 'Roots',
-    src: '/posters/family.png',
+    src: familyPoster,
     category: 'Family'
   },
   {
@@ -439,7 +453,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Heal A Child Foundation',
     subtitle: 'Medical Philanthropy',
     year: 'Social Impact',
-    src: '/assets/foundation-campaign.png',
+    src: foundationCampaign,
     category: 'Charity'
   }
 ];
